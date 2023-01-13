@@ -8,8 +8,8 @@ Installation
 * Create empty files under `/var/www/log/solaranzeige.log`, `/var/www/log/wartung.log`
 * Change permissions `sudo chown www-data:www-data /var/www/log/*log`
 * Change `html/1.user.config.php` and `html/2.user.config.php` to your needs
-* Create influx databases: ```influxdb
+* Create influx databases: `influxdb
 > create database solaranzeige
-> exit```
+> exit`
 * Apply settings in crontab from `sample_crontab`
 * reboot
